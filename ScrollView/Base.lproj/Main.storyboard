@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="ddq-fB-MBb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sS7-Q9-jVs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jwV-Tb-sdU">
-                                <rect key="frame" x="76" y="59" width="240" height="759"/>
+                                <rect key="frame" x="76" y="59" width="240" height="1907"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VBC-3d-0tM">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="759"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="1907"/>
                                         <color key="backgroundColor" red="0.68235294120000001" green="0.78039215689999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2000" id="sur-GP-VN7"/>
@@ -51,6 +51,7 @@
                             <constraint firstItem="YJX-az-3dc" firstAttribute="trailing" secondItem="jwV-Tb-sdU" secondAttribute="trailing" id="r2m-Ap-EAA"/>
                         </constraints>
                     </view>
+                    <size key="freeformSize" width="393" height="2000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvi-XG-kQA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
